@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kostenberekening 3D printer", "Kostenberekening 3D printer\Kostenberekening 3D printer.csproj", "{EFEBBA9A-2CD4-474F-B06C-8E2507030F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFEBBA9A-2CD4-474F-B06C-8E2507030F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEBBA9A-2CD4-474F-B06C-8E2507030F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEBBA9A-2CD4-474F-B06C-8E2507030F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEBBA9A-2CD4-474F-B06C-8E2507030F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E93A580A-2BDA-48F1-8A54-0D77188F5F2D}
+	EndGlobalSection
+EndGlobal
