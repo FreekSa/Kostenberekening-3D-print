@@ -11,11 +11,11 @@ namespace Kostenberekening_3D_printer
         int AantalMeter { get; set; }
         public decimal KostprijsPrint { get; set; }
 
-        public Filament(string type, decimal kostPerRol, int aantalMeter)
+        public Filament(string type, decimal kostPerRol)
         {
             Type = type;
             KostPerRol = kostPerRol;
-            AantalMeter = aantalMeter;
+            AantalMeter = 330;
         }
 
         public decimal KostPerMeter()

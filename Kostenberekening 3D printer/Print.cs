@@ -9,7 +9,7 @@ namespace Kostenberekening_3D_printer
         decimal Duurtijd { get; set; }
         int AantalMeterPrint { get; set; }
 
-        public Print(string type, decimal kostPerRol, int aantalMeter, int aantalMeterPrint, decimal duurtijd) : base(type, kostPerRol, aantalMeter)
+        public Print(string type, decimal kostPerRol, int aantalMeterPrint, decimal duurtijd) : base(type, kostPerRol)
         {
             Duurtijd = duurtijd;
             AantalMeterPrint = aantalMeterPrint;
@@ -17,7 +17,7 @@ namespace Kostenberekening_3D_printer
 
         public virtual decimal BerekenKostprijs()
         {
-            return KostPerMeter() * AantalMeterPrint * Duurtijd / 100;
+            return KostPerMeter() * AantalMeterPrint + 0.0534m * Duurtijd;
         }
     }
 }
