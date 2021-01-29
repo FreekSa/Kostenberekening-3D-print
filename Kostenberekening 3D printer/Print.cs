@@ -17,7 +17,7 @@ namespace Kostenberekening_3D_printer
 
         public virtual decimal BerekenKostprijs()
         {
-            return KostPerMeter() * AantalMeterPrint + 0.0534m * Duurtijd;
+            return KostPerMeter() * AantalMeterPrint + 0.0534m * Duurtijd;              //0.0534 = kost per kwh (elektriciteit)
         }
     }
 }

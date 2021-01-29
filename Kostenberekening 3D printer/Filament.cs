@@ -13,6 +13,7 @@ namespace Kostenberekening_3D_printer
 
         public Filament(string type, decimal kostPerRol)
         {
+            //In program.cs is Type vastgezet als PLA
             Type = type;
             KostPerRol = kostPerRol;
             AantalMeter = 330;

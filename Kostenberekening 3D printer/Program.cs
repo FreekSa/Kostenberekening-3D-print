@@ -13,8 +13,8 @@ namespace Kostenberekening_3D_printer
                 Console.Write("-");
             }
             Console.WriteLine();
-            Console.Write("Type filament: " + "\n");
-            string type = Console.ReadLine();
+            //Console.Write("Type filament: " + "\n");
+            string type = "PLA";
             Console.Write("Hoeveel kost de rol filament: " + "\n");
             decimal kostPerRol = decimal.Parse(Console.ReadLine());
             Console.WriteLine();
